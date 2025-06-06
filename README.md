@@ -2,6 +2,8 @@
 
 A modern, responsive, and visually engaging leaderboard web app for multiple games, built with React and Vite. This project was developed as part of an assessment to demonstrate clean code organization, dynamic UI features, and great user experience.
 
+Live Demo: [Click here to view the live site!](https://3-metad-assessment.vercel.app)
+
 ## Features
 
 - **Tabbed Game Navigation:** Quickly switch between different games and view their individual leaderboards.
