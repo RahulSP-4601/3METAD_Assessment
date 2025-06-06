@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  color: #fff;
+  font-family: "MontserratAlt", Arial, sans-serif;
+  min-height: 100vh;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Required for the ::before overlay */
+  background: none !important; /* Remove background color so image shows */
+  overflow-x: hidden;
+}
+
+/* Add the blurred image using a pseudo-element */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url("./assets/home.jpg") center center/cover no-repeat;
+  filter: blur(8px) brightness(0.7);
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  transition: background 0.3s;
+}
+
+/* Keep your main content above the background */
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+/* If you use .container outside of components, keep this, otherwise move to component CSS */
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 2rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 98vw;
+    padding: 1.5rem 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 100vw;
+    padding: 0.5rem 0.1rem;
+  }
+}
+
+@font-face {
+  font-family: "MontserratAlt";
+  src: url("/fonts/MontserratLightAlt1.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

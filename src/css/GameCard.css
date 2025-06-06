@@ -1,0 +1,120 @@
+.game-card {
+  background: #232634;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px #0d141c88;
+  padding: 2rem;
+  margin: 0 auto 2rem;
+  max-width: 600px;
+  font-family: "MontserratAlt", Arial, sans-serif;
+}
+
+.Name {
+  text-align: center;
+  font-family: "MontserratAlt", Arial, sans-serif;
+  font-size: 2em;
+  margin-top: -40px;
+}
+
+.Description {
+  text-align: absolute;
+  font-family: "MontserratAlt", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: -30px;
+}
+
+.game-img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  max-height: 200px;
+  object-fit: cover;
+}
+.leaderboard-preview {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: "MontserratAlt", Arial, sans-serif;
+}
+.leaderboard-preview th {
+  color: #1de781;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+.leaderboard-preview td {
+  padding: 0.3rem 0.6rem;
+  background: #181a20;
+  font-family: "MontserratAlt", Arial, sans-serif;
+}
+.view-btn {
+  margin-top: 1.2rem;
+  background: #1de781;
+  color: #191a1d;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 0 8px #1de78160;
+  display: block;
+  margin: 1.2rem auto 0 auto;
+}
+.view-btn:hover {
+  background: #17c672;
+}
+@media (max-width: 600px) {
+  .game-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: "MontserratAlt", Arial, sans-serif;
+  }
+  .game-img {
+    max-height: 120px;
+    border-radius: 0.7rem;
+  }
+  .leaderboard-preview th,
+  .leaderboard-preview td {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.9rem;
+    font-family: "MontserratAlt", Arial, sans-serif;
+  }
+}
+@media (max-width: 450px) {
+  .game-card {
+    padding: 0.5rem;
+    font-family: "MontserratAlt", Arial, sans-serif;
+  }
+  .game-img {
+    max-height: 80px;
+  }
+}
+
+.wallet-clickable {
+  color: #1de781;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.15s;
+}
+.wallet-clickable:hover {
+  color: #65e265;
+}
+
+.view-btn1 {
+  margin-top: 1.2rem;
+  background: #1de781;
+  color: #191a1d;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 0 8px #1de78160;
+  height: 35px;
+}
+.view-btn1:hover {
+  background: #17c672;
+}

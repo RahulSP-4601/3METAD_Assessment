@@ -1,0 +1,37 @@
+.filter-bar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  margin-left: 300px;
+}
+
+@media (max-width: 900px) {
+  .filter-bar {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .filter-bar {
+    margin-left: 0;
+    gap: 0.5rem;
+  }
+}
+
+.filter-bar button {
+  padding: 0.4rem 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  background: #232634;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.18s;
+}
+
+.filter-bar button.active,
+.filter-bar button:hover {
+  background: #1de781;
+  color: #191a1d;
+}

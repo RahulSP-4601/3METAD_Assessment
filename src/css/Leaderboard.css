@@ -1,0 +1,33 @@
+.full-leaderboard {
+  width: 100%;
+  margin-top: 0.5rem;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: "MontserratAlt", Arial, sans-serif;
+}
+.full-leaderboard th {
+  color: #1de781;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+.full-leaderboard td {
+  padding: 0.3rem 0.6rem;
+  background: #181a20;
+  font-family: "MontserratAlt", Arial, sans-serif;
+}
+@media (max-width: 700px) {
+  .full-leaderboard {
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+.wallet-clickable {
+  color: #1de781;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.15s;
+}
+.wallet-clickable:hover {
+  color: #65e265;
+}

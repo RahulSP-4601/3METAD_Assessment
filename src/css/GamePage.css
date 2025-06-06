@@ -1,0 +1,181 @@
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 2rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-banner-2col {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.game-left {
+  min-width: 260px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3rem;
+}
+
+.game-img-lg {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 2px 18px #17c67233;
+  margin-top: 60px;
+}
+
+.game-left h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: -10px;
+  text-align: center;
+  font-family: "MontserratAlt", Arial, sans-serif;
+}
+
+.game-left .paragraph {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.18rem;
+  margin-top: -20px;
+  width: 100%;
+  max-width: 340px;
+  text-align: justify;
+}
+
+.game-right {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.LeaderBoard {
+  color: #65e265;
+}
+
+@media (max-width: 700px) {
+  .game-banner-2col {
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .game-left {
+    min-width: 0;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 0.9rem;
+  }
+  .game-img-lg {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .game-left h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .game-left .paragraph {
+    font-size: 1.18rem;
+    max-width: 90%;
+    text-align: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  .game-right {
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+
+a:hover .brand,
+a:focus .brand {
+  text-shadow: 0 0 10px #65e265, 0 0 20px #1de78190, 0 0 32px #65e26550;
+  color: #1de781;
+  transition: text-shadow 0.2s, color 0.18s;
+  transform: scale(1.03);
+}
+
+a:hover .logo-e,
+a:focus .logo-e {
+  filter: drop-shadow(0 0 8px #65e265) drop-shadow(0 0 20px #1de78190);
+  transition: filter 0.2s;
+}
+
+a:hover .LeaderBoard,
+a:focus .LeaderBoard {
+  color: #1de781;
+  text-shadow: 0 0 10px #65e265, 0 0 25px #1de78160;
+  transition: color 0.18s, text-shadow 0.2s;
+  cursor: pointer;
+}
+
+.brand {
+  font-size: 3rem;
+  font-family: "Montserrat", Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.brand .three {
+  color: #ff9900;
+}
+.brand .m,
+.brand .e {
+  color: #65e265;
+}
+.brand .t,
+.brand .a {
+  color: #65e265;
+  margin-left: -2px;
+}
+.brand .d {
+  color: #ff9900;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+.logo-e {
+  display: inline-block;
+  width: 0.95em;
+  height: 1.2em;
+  vertical-align: middle;
+  margin: 0 0.06em;
+  position: relative;
+}
+.e-bar {
+  display: block;
+  width: 80%;
+  height: 0.12em;
+  background: #65e265;
+  border-radius: 2px;
+  margin: 0.18em 0;
+}
+.e-bar:first-child {
+  margin-top: 0.3em;
+}
+.e-bar:last-child {
+  margin-bottom: 0.05em;
+}
+@media (max-width: 600px) {
+  .brand {
+    font-size: 1.7rem;
+  }
+}
