@@ -10,7 +10,7 @@ export const games = [
       id: "orc-nation",
       name: "Orc Nation",
       image: OCR,
-      description: "Orc Nation is an immersive RPG where you step into the boots of a mighty orc, rising through the ranks to unite clans and defend your realm.",
+      description: "Orc Nation is an immersive RPG where you step into the boots of a mighty orc, rising through the ranks to unite warring clans and build a powerful empire. Explore a vast, untamed world filled with brutal combat, deep lore, and strategic alliances.",
       leaderboard: [
         { rank: 1, wallet: "0xORC115", score: 1450, tier: "Paid", badge: "Champion" },
         { rank: 2, wallet: "0xORC224", score: 1400, tier: "Free", badge: "Legend" },
@@ -23,7 +23,7 @@ export const games = [
       id: "rc-duels",
       name: "RC Duels",
       image: RC,
-      description: "High-octane remote control car battles. Out-race and outsmart your opponents!",
+      description: "RC Duels throws you into the adrenaline-pumping world of remote-controlled vehicle battles. Customize your miniature machines with weapons, shields, and performance upgrades before entering dynamic arenas filled with obstacles, traps, and power-ups. Compete in championship tournaments, unlock exclusive vehicle parts, and become the ultimate RC Duels champion in this fast-paced combat racing experience.",
       leaderboard: [
         { rank: 1, wallet: "0xDUEL105", score: 990, tier: "Paid", badge: "Champion" },
         { rank: 2, wallet: "0xDUEL104", score: 940, tier: "Free", badge: "Legend" },
@@ -36,7 +36,7 @@ export const games = [
       id: "metaverse-partnership",
       name: "Metaverse Partnership",
       image: MetaVerse,
-      description: "Form alliances and strategize in this cross-world metaverse collab adventure.",
+      description: "Our groundbreaking Metaverse Partnership creates a seamless bridge between multiple virtual worlds, allowing players to carry their digital identity, assets, and achievements across different games and platforms. This collaborative initiative brings together leading developers to craft interconnected experiences where your actions in one world influence opportunities in another. Explore vast digital landscapes, participate in cross-platform events, and shape the evolution of this revolutionary connected universe.",
       leaderboard: [
         { rank: 1, wallet: "0xMETA205", score: 1220, tier: "Paid", badge: "Champion" },
         { rank: 2, wallet: "0xMETA204", score: 1200, tier: "Paid", badge: "Legend" },
@@ -49,7 +49,7 @@ export const games = [
       id: "digital-defender",
       name: "Digital Defender",
       image: Digital,
-      description: "Defend the digital frontier from waves of cyber threats and unlock new defenses.",
+      description: "Digital Defender puts you on the frontlines of cyber warfare as an elite security specialist tasked with protecting critical digital infrastructure. Navigate through visually stunning representations of network systems, neutralize malicious code, and track down the mysterious hacking collective threatening global security. This cybersecurity action adventure combines fast-paced combat with puzzle-solving and stealth mechanics, all wrapped in a compelling narrative about digital privacy and the future of connected technology.",
       leaderboard: [
         { rank: 1, wallet: "0xDEF305", score: 1300, tier: "Free", badge: "Champion" },
         { rank: 2, wallet: "0xDEF304", score: 1280, tier: "Paid", badge: "Legend" },
@@ -62,7 +62,7 @@ export const games = [
       id: "stellar-paddle-rebirth",
       name: "Stellar Paddle Rebirth",
       image: Stellar,
-      description: "Paddle your way through cosmic obstacles and become a legend among the stars.",
+      description: "Stellar Paddle Rebirth reimagines the classic arcade paddle game with stunning visuals, physics-based gameplay, and a cosmic twist. Navigate your paddle through increasingly challenging levels, each set in a different corner of the universe with unique gravitational effects and obstacle patterns. Unlock special abilities, compete in online multiplayer tournaments, and discover the secrets hidden within the cosmos. This modern take on a gaming classic offers a perfect blend of nostalgic gameplay and innovative mechanics.",
       leaderboard: [
         { rank: 1, wallet: "0xPAD405", score: 990, tier: "Paid", badge: "Champion" },
         { rank: 2, wallet: "0xPAD404", score: 950, tier: "Free", badge: "Legend" },
@@ -75,7 +75,7 @@ export const games = [
       id: "monsters-and-villains",
       name: "Monsters and Villains",
       image: Monster,
-      description: "Face terrifying monsters and cunning villains in this action-packed challenge.",
+      description: "Monsters and Villains plunges you into a dark fantasy world where dungeon exploration meets tactical combat. Descend into procedurally generated labyrinths teeming with unique monsters, each requiring specific strategies to defeat. Manage limited resources, solve ancient puzzles to unlock hidden chambers, and face terrifying boss encounters that will test your skills and nerve. With permadeath mechanics, each expedition into the depths becomes a tense battle for survival and glory in this challenging roguelike adventure.",
       leaderboard: [
         { rank: 1, wallet: "0xMON505", score: 1400, tier: "Free", badge: "Champion" },
         { rank: 2, wallet: "0xMON504", score: 1350, tier: "Paid", badge: "Legend" },

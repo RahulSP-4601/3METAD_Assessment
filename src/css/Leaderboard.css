@@ -5,16 +5,19 @@
   border-collapse: collapse;
   font-family: "MontserratAlt", Arial, sans-serif;
 }
+
 .full-leaderboard th {
   color: #1de781;
   font-weight: 700;
   padding: 0.5rem;
 }
+
 .full-leaderboard td {
   padding: 0.3rem 0.6rem;
   background: #181a20;
   font-family: "MontserratAlt", Arial, sans-serif;
 }
+
 @media (max-width: 700px) {
   .full-leaderboard {
     font-size: 0.95rem;
