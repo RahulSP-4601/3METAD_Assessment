@@ -48,8 +48,6 @@ A modern, responsive, and visually engaging leaderboard web app for multiple gam
 
 4. **Visit** [http://localhost:5173](http://localhost:5173) in your browser.
 
-### How to Run
-
 ## Scripts
 
 - `npm run dev` — Start the local development server
