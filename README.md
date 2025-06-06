@@ -6,8 +6,8 @@ A modern, responsive, and visually engaging leaderboard web app for multiple gam
 
 - **Tabbed Game Navigation:** Quickly switch between different games and view their individual leaderboards.
 - **Dynamic Sorting:** Sort leaderboard entries by wallet or score, both ascending and descending.
-- **Filter by Tier:** Instantly filter the leaderboard to show only Paid or Free tier players.
-- **Player Profile Modal:** Click on any wallet or "View Profile" to see a pop-up modal with a detailed player profile (avatar, rank, score, tier, badge), with a beautifully blurred background for focus.
+- **Filter by Tier:** Instantly filter the leaderboard to show only Paid, Free or All tier players.
+- **Player Profile Modal:** Click on "View Profile" to see a pop-up modal with a detailed player profile (avatar, rank, score, tier, badge), with a beautifully blurred background for focus.
 - **Responsive UI:** Fully responsive layout and styling for desktop, tablet, and mobile.
 - **Custom Font & Branding:** Uses the MontserratLightAlt1 custom font for a unique look.
 - **Blurred Background Image:** App background uses a blurred image for a modern, soft appearance.
@@ -26,7 +26,7 @@ A modern, responsive, and visually engaging leaderboard web app for multiple gam
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/3METAD-LEADERBOARD.git
+   git clone https://github.com/RahulSP-4601/3METAD_Assessment.git
    cd 3METAD-LEADERBOARD
    ```
 
