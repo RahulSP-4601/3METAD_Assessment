@@ -11,7 +11,7 @@ Live Demo: [Click here to view the live site!](https://3-metad-assessment.vercel
 - **Filter by Tier:** Instantly filter the leaderboard to show only Paid, Free or All tier players.
 - **Player Profile Modal:** Click on "View Profile" to see a pop-up modal with a detailed player profile (avatar, rank, score, tier, badge), with a beautifully blurred background for focus.
 - **Responsive UI:** Fully responsive layout and styling for desktop, tablet, and mobile.
-- **Custom Font & Branding:** Uses the MontserratLightAlt1 custom font for a unique look.
+- **Custom Font:** Uses the MontserratLightAlt1 custom font for a unique look that matches the original 3METAD website font
 - **Blurred Background Image:** App background uses a blurred image for a modern, soft appearance.
 - **Leaderboard Chart:** Visualize top player scores with a stylish chart.
 - **Accessibility:** Keyboard navigation and focus indicators.
