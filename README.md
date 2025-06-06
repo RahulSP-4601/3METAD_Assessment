@@ -9,7 +9,6 @@ Live Demo: [Click here to view the live site!](https://3-metad-assessment.vercel
 - **Tabbed Game Navigation:** Quickly switch between different games and view their individual leaderboards.
 - **Dynamic Sorting:** Sort leaderboard entries by wallet or score, both ascending and descending.
 - **Filter by Tier:** Instantly filter the leaderboard to show only Paid, Free or All tier players.
-- **Filter by Score and Wallet ID:** Instantly filter the Score or Wallet ID in Ascending and Descending order.
 - **Player Profile Modal:** Click on "View Profile" to see a pop-up modal with a detailed player profile (avatar, rank, score, tier, badge), with a beautifully blurred background for focus.
 - **Responsive UI:** Fully responsive layout and styling for desktop, tablet, and mobile.
 - **Custom Font & Branding:** Uses the MontserratLightAlt1 custom font for a unique look.
